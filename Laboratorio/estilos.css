@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+h1 {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header, section,footer, aside, nav, article, hgroup{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.agro{
+    width: 1000px;
+    border: 1px solid black;
+    margin: 20px auto;
+
+    
+}
+.head{
+    background: #091428;
+    border: 1px solid #999999;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.head h1{
+    text-align: center;
+}
+.menu{
+    background: #0A323C;
+    padding: 5px;
+    text-align: left;
+    color: #999;
+}
+.menu li{
+    list-style: none;
+    padding: 5px; 
+    font: bold 14px sans-serif;
+    display: inline-block;
+}
+.seccion{
+    margin: 20px;
+    width: 600px ;
+    float: left;
+
+}
+
+article{
+    background: #091428;
+    border: 1px solid #999;
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+time{
+    color: #999;
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+.columna{
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+.columna blockquote {
+    border: 1px solid #999;
+    padding: 20px;
+    background: #091428;
+    margin-bottom: 20px;
+    color: white;
+    height: 585px;
+    
+
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #091428;
+    color: white;
+}
+img{
+    margin: 20px auto;
+}
+p{
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    color: #999;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: #999;
+}
+.columnaC{
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+.columnaC blockquote{
+    border: 1px solid #999;
+    padding: 20px;
+    background: #091428;
+    margin-bottom: 20px;
+    color: white;
+    height: 650px;
+}
